@@ -1,0 +1,211 @@
+body, html {
+    height:100%;
+    font-family: "Calibri Light" !important;
+    font-weight: lighter;
+    background-color: black;
+}
+.navbar {
+    z-index: 2;  
+    left:0;
+    right:0;
+    top:0;
+    position:fixed;
+    height:50px;
+    
+}
+.title {
+    width: 100%;
+    padding-top: 5%;
+    
+    text-align: center;
+}
+.title-text {
+    font-family: "Calibri Light";
+    font-weight: lighter;
+}
+.navbar-nav {
+    margin-left:auto;
+    margin-right: auto;
+}
+.nav-item a {
+    /*font-variant: small-caps;*/
+    font-size: 20px;
+    margin-right:4vw;
+}
+
+.collapsing, .show {
+    background-color:rgba(0,0,0,0.85);
+    margin: 0px;
+    margin-top: 8px;
+    text-align: center;
+    line-height: 40px;
+    padding: 30px;
+    
+}
+.navbar-nav .nav-link {
+    width:100%;
+
+}
+.navbar-nav button {
+    width: 100%;
+}
+.nav-link a:hover {
+    /*font-variant: small-caps;*/
+    margin-bottom:5px;
+}
+
+
+.navbar-brand {
+    color: black;
+    /*rgb(252, 204, 15);*/
+    font-size: 30px;
+   
+}
+
+.logo-fixed {
+    position: fixed;
+    left: 15px;
+    top: 50px;
+}
+.btn-munkaink:hover * {
+    color:black;
+}
+.btn-munkaink * {
+    color: white;
+}
+
+.header-container {
+    margin-top:0px;
+  
+    background-image:url('../images/leather-camera-bag-rain-exposed-1024x576.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    color:white;
+}
+
+.header-container h1 {
+    text-align: center;
+    font-size:9vh;
+    line-height: 105px;
+}
+.header-container h1 span {
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.navbar-container {
+    position:fixed;
+    width:100%;
+    height:100px;
+}
+.header-footer {
+    height: 90px;
+    bottom:0px;
+    background-color:black;
+    width:100%;
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: white;
+}
+.ico-circle {
+    background-color: rgb(52, 18, 15);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 30px;
+
+}
+
+section {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: black;
+    text-align: justify;
+    background-color:white;
+    font-size: 25px;
+}
+article{
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top:20px;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    article {
+        padding: 10px;
+        font-size: 18px;
+        
+    }
+}
+.image-container {
+    display: flex;
+    width: 100%;
+
+}
+.an-image:nth-child(1) {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.an-image {
+    border: 5px solid black;
+    transition: .2s;
+    width: 100%;
+    
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#gyar-1 {
+    background-image: url(../images/gyar1.jpg);
+    
+}
+#gyar-2 {
+    background-image: url(../images/gyar3.jpg);
+    
+}
+
+.an-image:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 50px;
+    font-family: "Calibri Light";
+    font-weight: lighter;
+    text-align: center;
+}
+p {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+footer {
+    margin-top:40px;
+    /*background-color: rgb(52, 18, 15);*/
+    background-color: black;/*rgb(252, 204, 15);*/
+    height:200px;
+}
+.signin h2 {
+    font-family: "Calibri Light";
+    font-weight: lighter; 
+    font-size: 2em;
+}
+.signin .ui {
+    margin:20px;
+    border-bottom:1px solid #dddddd;
+    width:90%;
+    height:60px;
+    font-size: 16px;
+}
+.menu {
+    padding-top:50px;
+    background-color: rgba(0, 0, 0, 0.85) !important;
+
+}
